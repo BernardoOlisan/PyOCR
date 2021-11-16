@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #2d374b;
+}
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 3.5em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input {
+    border: 2px solid #ccc;
+    padding: 6px 12px;
+}
+
+img {
+    width: 200px;
+    position: relative;
+    top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtext {
+    color: rgba(238, 238, 238, 0.527);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 200px;
+}
+#text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 200px;
+    background-color: #bebebe;
+}
+.btn {
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+.btnn {
+    background-color: aqua;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+
+}
+a {
+    text-decoration: none;
+    color: rgba(238, 238, 238, 0.527);
 }
