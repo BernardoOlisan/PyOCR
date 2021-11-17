@@ -1,3 +1,10 @@
+'''
+THIS FILE IS NOT NECCESARY TO USE, IS ALREADY HOST ON 
+https://bernardoolisan1.pythonanywhere.com/upload
+THIS IS ONLY FOR SERVER BACKEND, YOU WILL SE NOTHING AT ALL.
+
+THIS IS HOW THE BACKEND WORKS! WITH AI AND MACHINE LEARNING
+'''
 from flask import Flask, request
 from flask.json import jsonify
 import cv2 
@@ -22,7 +29,7 @@ def handle_form():
     # convert numpy array to image
     img = cv2.imdecode(npimg, cv2.IMREAD_COLOR)
 
-    pytesseract.pytesseract.tesseract_cmd = os.path.abspath(r'Tesseract-OCR/tesseract.exe')
+    pytesseract.pytesseract.tesseract_cmd = os.path.abspath(r'Tesseract-OCR/tesseract.exe') # HERE YOU NEED TO DOWNLOAD THE TESERRACT-OCR, THIS REPO DOES NOT HAVE IT
     text = pytesseract.image_to_string(img)
     print(text)
 
