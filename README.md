@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Getting Started with PyOCR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple ReactJS app where you can transform image to text
 
-## Available Scripts
+### Aplicación
 
-In the project directory, you can run:
+La aplicación ya está implementada, aquí está el enlace https://pyocr-1327c.web.app/
 
-### `yarn start`
+## Comentarios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Las imágenes en color son difíciles de predecir :)
+El backend se construye con python y se implementa en pythonanywhere, enlace https://bernardoolisan1.pythonanywhere.com/upload, no verá nada allí, es solo para el backend, puede encontrarlo en el archivo server.py.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm start`
 
-### `yarn test`
+Para usarlo con el código en su localhost, necesita conocer ReactJS https://reactjs.org/docs/getting-started.html
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+¡ESTO ES ADICIONAL!
+1.- Instalar node.js
+2.- cd la ubicación del repositorio
+3.- escribe `npm start` ¡y listo!
 
-### `yarn build`
+Para Flask, solo necesita escribir `py server.py`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ¡Disfrútala!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### App
 
-### `yarn eject`
+The app is already deploy, here is the link https://pyocr-1327c.web.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Comments
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Colored images are difficult to predict:)
+Backend is build with python and deploy on pythonanywhere, link https://bernardoolisan1.pythonanywhere.com/upload you will see nothing there, is only for the backend, you can find it on server.py file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To use it with the code on your localhost, you need to know ReactJS https://reactjs.org/docs/getting-started.html 
 
-## Learn More
+THIS IS ADITIONAL!
+1.- Install node.js
+2.- cd the location of the repo
+3.- type `npm start` and there you go!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For flask, you only need to type `py server.py`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Enjoy it!
